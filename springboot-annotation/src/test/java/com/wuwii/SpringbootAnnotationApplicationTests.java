@@ -10,16 +10,4 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringbootAnnotationApplicationTests {
 
-    @Autowired
-    private MessageSender sender;
-
-    @Test
-    public void send() {
-        sender.send();
-    }
-
-    @Test
-    public void sendAndReceive() {
-        sender.sendAndReceive();
-    }
 }

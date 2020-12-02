@@ -21,7 +21,7 @@ public class Producer {
         // 创建连接
         ConnectionFactory factory = new ConnectionFactory();
         // 设置 RabbitMQ 的主机名
-        factory.setHost("k.wuwii.com");
+        factory.setHost("10.25.92.173");
         factory.setPort(5672);
         // 创建一个连接
         Connection connection = factory.newConnection();
